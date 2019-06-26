@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">FIT</string>
     <string name="sample">ヒラノワールド</string>
+    <string name="register_profile_label_name">名前</string>
 </resources>
