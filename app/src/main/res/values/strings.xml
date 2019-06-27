@@ -12,4 +12,9 @@
     <string name="month_label">月</string>
     <string name="day_label">日</string>
     <string name="next_button">次へ</string>
+    <string name="profile_label">現在の体型を入力してください。</string>
+    <string name="height_label">身長</string>
+    <string name="cm_label">cm</string>
+    <string name="weight_label">体重</string>
+    <string name="kg_label">kg</string>
 </resources>

@@ -9,42 +9,47 @@
         android:id="@+id/register_profile_text_day"
         android:layout_width="58dp"
         android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:textSize="24sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.753"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.545" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/register_profile_label_month"
+        app:layout_constraintTop_toBottomOf="@+id/register_profile_label_birthday"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/register_profile_label_year"
         android:layout_width="25dp"
         android:layout_height="34dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:text="@string/year_label"
-        android:textSize="24sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.411"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup3"
-        app:layout_constraintVertical_bias="0.171" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/register_profile_text_year"
+        app:layout_constraintTop_toBottomOf="@+id/register_profile_label_birthday"
+        app:layout_constraintVertical_bias="0.019" />
 
     <EditText
         android:id="@+id/register_profile_text_year"
         android:layout_width="94dp"
         android:layout_height="48dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:textSize="24sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.198"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.544" />
+        app:layout_constraintTop_toBottomOf="@+id/register_profile_label_birthday"
+        app:layout_constraintVertical_bias="0.003" />
 
     <EditText
         android:id="@+id/register_profile_text_name"
@@ -52,7 +57,7 @@
         android:layout_height="53dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:textSize="24sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.466"
@@ -64,33 +69,35 @@
         android:id="@+id/register_profile_text_month"
         android:layout_width="58dp"
         android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:textSize="24sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.521"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.545" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/register_profile_label_year"
+        app:layout_constraintTop_toBottomOf="@+id/register_profile_label_birthday"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/register_profile_label_gender"
-        android:layout_width="52dp"
-        android:layout_height="32dp"
+        android:layout_width="93dp"
+        android:layout_height="41dp"
         android:text="@string/gender_label"
-        android:textSize="24sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/radioGroup3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintHorizontal_bias="0.182"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/register_profile_text_name"
-        app:layout_constraintVertical_bias="0.925" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <RadioGroup
         android:id="@+id/radioGroup3"
-        android:layout_width="282dp"
-        android:layout_height="39dp"
+        android:layout_width="292dp"
+        android:layout_height="54dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -101,66 +108,70 @@
 
         <RadioButton
             android:id="@+id/register_profile_radio_ma"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/male_radio"
-            android:textSize="24sp" />
+            android:textSize="30sp" />
 
         <RadioButton
             android:id="@+id/register_profile_radio_female"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/female_radio"
-            android:textSize="24sp" />
+            android:textSize="30sp" />
     </RadioGroup>
 
     <TextView
         android:id="@+id/register_profile_label_birthday"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:text="@string/birthday_label"
-        android:textSize="24sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.216"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup3"
-        app:layout_constraintVertical_bias="0.093" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/register_profile_label_month"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:text="@string/month_label"
-        android:textSize="24sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.625"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup3"
-        app:layout_constraintVertical_bias="0.168" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/register_profile_text_month"
+        app:layout_constraintTop_toBottomOf="@+id/register_profile_label_birthday"
+        app:layout_constraintVertical_bias="0.019" />
 
     <TextView
         android:id="@+id/register_profile_label_day"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text="@string/day_label"
-        android:textSize="24sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.228"
         app:layout_constraintStart_toEndOf="@+id/register_profile_text_day"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup3"
-        app:layout_constraintVertical_bias="0.17" />
+        app:layout_constraintTop_toBottomOf="@+id/register_profile_label_birthday"
+        app:layout_constraintVertical_bias="0.019" />
 
     <TextView
         android:id="@+id/register_profile_label_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/name_label"
-        android:textSize="24sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/register_profile_text_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.173"
@@ -169,16 +180,18 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/register_profile_button_next"
+        android:id="@+id/register_profile2_button_next"
         android:layout_width="154dp"
         android:layout_height="64dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:text="@string/next_button"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/register_profile_text_day"
-        app:layout_constraintVertical_bias="0.491" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.781" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
