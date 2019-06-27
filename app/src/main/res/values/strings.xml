@@ -3,4 +3,13 @@
     <string name="sample">ヒラノワールド</string>
     <string name="register_button">登録</string>
     <string name="register_button2">ログイン</string>
+    <string name="name_label">名前</string>
+    <string name="gender_label">性別</string>
+    <string name="male_radio">男性</string>
+    <string name="female_radio">女性</string>
+    <string name="birthday_label">生年月日</string>
+    <string name="year_label">年</string>
+    <string name="month_label">月</string>
+    <string name="day_label">日</string>
+    <string name="next_button">次へ</string>
 </resources>
