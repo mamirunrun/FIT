@@ -17,4 +17,6 @@
     <string name="cm_label">cm</string>
     <string name="weight_label">体重</string>
     <string name="kg_label">kg</string>
+    <string name="target_weight_label">目標体重</string>
+    <string name="activity_level_label">身体活動レベル</string>
 </resources>
