@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <color android:color="#ffffff" />
+    </item>
+
+    <item android:id="@+id/progressBar">
+        <clip>
+            <color android:color="#ff0000" />
+            <height android:height="100dp" />
+        </clip>
+    </item>
+
+    <item android:id="@+id/progressBar2">
+        <clip>
+            <color android:color="#ff8000" />
+            <height android:height="100dp" />
+        </clip>
+    </item>
+
+</layer-list>

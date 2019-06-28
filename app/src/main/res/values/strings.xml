@@ -21,4 +21,11 @@
     <string name="activity_level_label">身体活動レベル</string>
     <string name="navigation_drawer_open">open</string>
     <string name="navigation_drawer_close">close</string>
+    <string name="nav_home">ホーム</string>
+    <string name="nav_todolist">やることリスト</string>
+    <string name="nav_settings">設定</string>
+    <string name="nav_andmore">その他</string>
+    <string name="nav_wahtsapp">このアプリについて</string>
+    <string name="Intake_calories">摂取カロリー</string>
+    <string name="Calorie_consumption">消費カロリー</string>
 </resources>
