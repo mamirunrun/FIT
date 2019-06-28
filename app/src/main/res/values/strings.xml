@@ -31,6 +31,11 @@
     <string name="nav_wahtsapp">このアプリについて</string>
     <string name="Intake_calories">摂取カロリー</string>
     <string name="Calorie_consumption">消費カロリー</string>
+    <string name="nav_header_title">タイトル</string>
+    <string name="nav_header_subtitle">サブタイトル</string>
+    <string name="nav_header_desc">説明文</string>
+    <string name="action_settings">設定</string>
+    <string name="title_activity_home_activity">title_activity_home_activity</string>
     <string name="training_ratio_label">食生活と運動の比率</string>
     <string name="meal_label">食生活</string>
     <string name="training_rabel">運動</string>
