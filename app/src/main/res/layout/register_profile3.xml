@@ -13,7 +13,7 @@
         android:paddingBottom="40dp">
 
         <Button
-            android:id="@+id/register_profile2_button_next2"
+            android:id="@+id/register_profile3_button_next"
             android:layout_width="154dp"
             android:layout_height="64dp"
             android:layout_marginTop="60dp"
