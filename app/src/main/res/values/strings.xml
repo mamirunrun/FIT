@@ -41,4 +41,6 @@
     <string name="training_rabel">運動</string>
     <string name="direction_label">方向性</string>
     <string name="dificulty_label">難易度</string>
+    <string name="hatena_button">\?</string>
+    <string name="popup">PopupWindow</string>
 </resources>

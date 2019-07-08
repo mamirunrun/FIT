@@ -1,177 +1,264 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/register_profile3_label__training"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/training_rabel"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/register_profile3_seekBar_training_ratio"
-        app:layout_constraintEnd_toEndOf="@+id/register_profile3_seekBar_training_ratio" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="40dp">
 
-    <SeekBar
-        android:id="@+id/register_profile3_seekBar_training_ratio"
-        android:layout_width="326dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="52dp"
-        android:max="4"
-        android:progress="2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/register_profile3_label_training_ratio" />
+        <Button
+            android:id="@+id/register_profile2_button_next2"
+            android:layout_width="154dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/next_button"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/register_profile3_seekBar_activity_dificulty" />
 
-    <EditText
-        android:id="@+id/register_profile3_text_target_weight"
-        android:layout_width="117dp"
-        android:layout_height="59dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:textSize="30sp"
-        app:layout_constraintStart_toStartOf="@+id/register_profile3_label_target_weight"
-        app:layout_constraintTop_toBottomOf="@+id/register_profile3_label_target_weight" />
+        <TextView
+            android:id="@+id/register_profile3_dificulty_3"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/no_label_3"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/register_profile3_seekBar_activity_dificulty"
+            app:layout_constraintEnd_toEndOf="@+id/register_profile3_seekBar_activity_dificulty"
+            app:layout_constraintTop_toBottomOf="@+id/textView10"
+            app:layout_constraintVertical_bias="1.0" />
 
-    <TextView
-        android:id="@+id/register_profile3_label_target_weight"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/target_weight_label"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.144"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.13" />
+        <TextView
+            android:id="@+id/register_profile3_dificulty_2"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/no_label_2"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/register_profile3_seekBar_activity_dificulty"
+            app:layout_constraintEnd_toStartOf="@+id/register_profile3_dificulty_3"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toEndOf="@+id/register_profile3_dificulty_1"
+            app:layout_constraintTop_toBottomOf="@+id/textView10"
+            app:layout_constraintVertical_bias="1.0" />
 
-    <TextView
-        android:id="@+id/register_profile3_label_kg"
-        android:layout_width="45dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/kg_label"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.012"
-        app:layout_constraintStart_toEndOf="@+id/register_profile3_text_target_weight"
-        app:layout_constraintTop_toBottomOf="@+id/register_profile3_label_target_weight"
-        app:layout_constraintVertical_bias="0.019" />
+        <TextView
+            android:id="@+id/register_profile3_dificulty_1"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/no_label_1"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/register_profile3_seekBar_activity_dificulty"
+            app:layout_constraintStart_toStartOf="@+id/register_profile3_seekBar_activity_dificulty"
+            app:layout_constraintTop_toBottomOf="@+id/textView10"
+            app:layout_constraintVertical_bias="1.0" />
 
-    <TextView
-        android:id="@+id/register_profile3_label_activity_level"
-        android:layout_width="237dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:singleLine="false"
-        android:text="@string/activity_level_label"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.241"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.29" />
+        <SeekBar
+            android:id="@+id/register_profile3_seekBar_activity_dificulty"
+            android:layout_width="326dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="52dp"
+            android:max="2"
+            android:progress="1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
-    <SeekBar
-        android:id="@+id/register_profile3_seekBar_activity_level"
-        android:layout_width="326dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="44dp"
-        android:max="2"
-        android:progress="1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/register_profile3_label_activity_level" />
+        <TextView
+            android:id="@+id/register_profile3_label__training"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/training_rabel"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/register_profile3_seekBar_training_ratio"
+            app:layout_constraintEnd_toEndOf="@+id/register_profile3_seekBar_training_ratio"
+            app:layout_constraintTop_toBottomOf="@+id/register_profile3_label_training_ratio" />
 
-    <TextView
-        android:id="@+id/register_profile3_level_1"
-        android:layout_width="30dp"
-        android:layout_height="35dp"
-        android:text="@string/no_label_1"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/register_profile3_seekBar_activity_level"
-        app:layout_constraintStart_toStartOf="@+id/register_profile3_seekBar_activity_level" />
+        <SeekBar
+            android:id="@+id/register_profile3_seekBar_training_ratio"
+            android:layout_width="326dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="56dp"
+            android:max="4"
+            android:progress="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/register_profile3_label_training_ratio" />
 
-    <TextView
-        android:id="@+id/register_profile3_level_2"
-        android:layout_width="30dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="116dp"
-        android:layout_marginEnd="8dp"
-        android:text="@string/no_label_2"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/register_profile3_seekBar_activity_level"
-        app:layout_constraintEnd_toStartOf="@+id/register_profile3_level_3"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/register_profile3_level_1" />
+        <EditText
+            android:id="@+id/register_profile3_text_target_weight"
+            android:layout_width="117dp"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="@+id/register_profile3_label_target_weight"
+            app:layout_constraintTop_toBottomOf="@+id/register_profile3_label_target_weight" />
 
-    <TextView
-        android:id="@+id/register_profile3_level_3"
-        android:layout_width="30dp"
-        android:layout_height="35dp"
-        android:text="@string/no_label_3"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/register_profile3_seekBar_activity_level"
-        app:layout_constraintEnd_toEndOf="@+id/register_profile3_seekBar_activity_level" />
+        <TextView
+            android:id="@+id/register_profile3_label_target_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/target_weight_label"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.127"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/register_profile3_label_training_ratio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/training_ratio_label"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.605" />
+        <TextView
+            android:id="@+id/register_profile3_label_kg"
+            android:layout_width="45dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/kg_label"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.012"
+            app:layout_constraintStart_toEndOf="@+id/register_profile3_text_target_weight"
+            app:layout_constraintTop_toBottomOf="@+id/register_profile3_label_target_weight"
+            app:layout_constraintVertical_bias="0.019" />
 
-    <TextView
-        android:id="@+id/register_profile3_label__meal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/meal_label"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/register_profile3_seekBar_training_ratio"
-        app:layout_constraintStart_toStartOf="@+id/register_profile3_seekBar_training_ratio" />
+        <TextView
+            android:id="@+id/register_profile3_label_activity_level"
+            android:layout_width="237dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="16dp"
+            android:singleLine="false"
+            android:text="@string/activity_level_label"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.247"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/register_profile3_text_target_weight" />
 
-    <TextView
-        android:id="@+id/register_profile3_label__direction"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="@string/direction_label"
-        android:textSize="36sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.527" />
+        <SeekBar
+            android:id="@+id/register_profile3_seekBar_activity_level"
+            android:layout_width="326dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="48dp"
+            android:max="2"
+            android:progress="1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/register_profile3_label_activity_level" />
 
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="@string/dificulty_label"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.133"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.844" />
+        <TextView
+            android:id="@+id/register_profile3_level_1"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:text="@string/no_label_1"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/register_profile3_seekBar_activity_level"
+            app:layout_constraintStart_toStartOf="@+id/register_profile3_seekBar_activity_level"
+            app:layout_constraintTop_toBottomOf="@+id/register_profile3_label_activity_level"
+            app:layout_constraintVertical_bias="1.0" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/register_profile3_level_2"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="116dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/no_label_2"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/register_profile3_seekBar_activity_level"
+            app:layout_constraintEnd_toStartOf="@+id/register_profile3_level_3"
+            app:layout_constraintHorizontal_bias="0.008"
+            app:layout_constraintStart_toEndOf="@+id/register_profile3_level_1"
+            app:layout_constraintTop_toBottomOf="@+id/register_profile3_label_activity_level"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/register_profile3_level_3"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:text="@string/no_label_3"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/register_profile3_seekBar_activity_level"
+            app:layout_constraintEnd_toEndOf="@+id/register_profile3_seekBar_activity_level"
+            app:layout_constraintTop_toBottomOf="@+id/register_profile3_label_activity_level"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/register_profile3_label_training_ratio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/training_ratio_label"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.25"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/register_profile3_label__direction" />
+
+        <TextView
+            android:id="@+id/register_profile3_label__meal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/meal_label"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/register_profile3_seekBar_training_ratio"
+            app:layout_constraintStart_toStartOf="@+id/register_profile3_seekBar_training_ratio"
+            app:layout_constraintTop_toBottomOf="@+id/register_profile3_label_training_ratio" />
+
+        <TextView
+            android:id="@+id/register_profile3_label__direction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/direction_label"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/register_profile3_seekBar_activity_level" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/dificulty_label"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.109"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/register_profile3_seekBar_training_ratio" />
+
+        <Button
+            android:id="@+id/register_profile3_button_hatena"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/hatena_button"
+            android:textSize="28sp"
+            app:layout_constraintStart_toEndOf="@+id/register_profile3_label_activity_level"
+            app:layout_constraintTop_toBottomOf="@+id/register_profile3_text_target_weight" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
