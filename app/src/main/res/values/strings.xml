@@ -23,4 +23,26 @@
     <string name="activity_level_label">身体活動レベル</string>
     <string name="navigation_drawer_open">open</string>
     <string name="navigation_drawer_close">close</string>
+    <string name="no_label_1">1</string>
+    <string name="no_label_2">2</string>
+    <string name="no_label_3">3</string>
+    <string name="nav_home">ホーム</string>
+    <string name="nav_todolist">やることリスト</string>
+    <string name="nav_settings">設定</string>
+    <string name="nav_andmore">その他</string>
+    <string name="nav_wahtsapp">このアプリについて</string>
+    <string name="Intake_calories">摂取カロリー</string>
+    <string name="Calorie_consumption">消費カロリー</string>
+    <string name="nav_header_title">タイトル</string>
+    <string name="nav_header_subtitle">サブタイトル</string>
+    <string name="nav_header_desc">説明文</string>
+    <string name="action_settings">設定</string>
+    <string name="title_activity_home_activity">title_activity_home_activity</string>
+    <string name="training_ratio_label">食生活と運動の比率</string>
+    <string name="meal_label">食生活</string>
+    <string name="training_rabel">運動</string>
+    <string name="direction_label">方向性</string>
+    <string name="dificulty_label">難易度</string>
+    <string name="hatena_button">\?</string>
+    <string name="popup">PopupWindow</string>
 </resources>

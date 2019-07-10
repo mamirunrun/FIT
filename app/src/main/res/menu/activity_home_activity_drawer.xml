@@ -7,23 +7,23 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@android:drawable/alert_dark_frame"
-            android:title="@string/menu_home" />
+            android:title="@string/nav_home" />
         <item
             android:id="@+id/nav_todolist"
             android:icon="@android:drawable/checkbox_on_background"
-            android:title="@string/todolist" />
+            android:title="@string/nav_todolist" />
         <item
             android:id="@+id/nav_tools"
             android:icon="@drawable/ic_menu_manage"
-            android:title="@string/settings" />
+            android:title="@string/nav_settings" />
     </group>
 
-    <item android:title="@string/andmore">
+    <item android:title="@string/nav_andmore">
         <menu>
             <item
                 android:id="@+id/nav_whatsapp"
                 android:icon="@android:drawable/ic_dialog_info"
-                android:title="@string/whatsapp" />
+                android:title="@string/nav_wahtsapp" />
         </menu>
     </item>
 
