@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EiyouMainActivity"
+    tools:showIn="@layout/app_bar_eiyou_main">
+
+    <TextView
+        android:id="@+id/text_calorie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/calorie"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar_protein"
+        app:layout_constraintEnd_toStartOf="@+id/progressBar_calorie"
+        app:layout_constraintTop_toTopOf="@+id/progressBar_calorie" />
+
+    <TextView
+        android:id="@+id/text_protein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/protein"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar_lipid"
+        app:layout_constraintEnd_toStartOf="@+id/progressBar_protein"
+        app:layout_constraintTop_toTopOf="@+id/progressBar_protein" />
+
+    <TextView
+        android:id="@+id/text_lipid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/lipid"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar_carbohydrate"
+        app:layout_constraintEnd_toStartOf="@+id/progressBar_lipid"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/progressBar_lipid" />
+
+    <TextView
+        android:id="@+id/text_carbohydrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/carbohydrate"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar_calcium"
+        app:layout_constraintEnd_toStartOf="@+id/progressBar_carbohydrate"
+        app:layout_constraintTop_toTopOf="@+id/progressBar_carbohydrate" />
+
+    <TextView
+        android:id="@+id/text_calcium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/calcium"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar_iron"
+        app:layout_constraintEnd_toStartOf="@+id/progressBar_calcium"
+        app:layout_constraintTop_toTopOf="@+id/progressBar_calcium" />
+
+    <TextView
+        android:id="@+id/text_iron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/iron"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar_vitaminA"
+        app:layout_constraintEnd_toStartOf="@+id/progressBar_iron"
+        app:layout_constraintTop_toTopOf="@+id/progressBar_iron" />
+
+    <TextView
+        android:id="@+id/text_vitaminA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/vitaminA"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar_vitaminE"
+        app:layout_constraintEnd_toStartOf="@+id/progressBar_vitaminA"
+        app:layout_constraintTop_toTopOf="@+id/progressBar_vitaminA" />
+
+    <TextView
+        android:id="@+id/text_vitaminE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/vitaminE"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar_vitaminB1"
+        app:layout_constraintEnd_toStartOf="@+id/progressBar_vitaminE"
+        app:layout_constraintTop_toTopOf="@+id/progressBar_vitaminE" />
+
+    <TextView
+        android:id="@+id/text_vitaminB1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/vitaminB1"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar_vitaminB2"
+        app:layout_constraintEnd_toStartOf="@+id/progressBar_vitaminB1"
+        app:layout_constraintTop_toTopOf="@+id/progressBar_vitaminB1" />
+
+    <TextView
+        android:id="@+id/text_vitaminB2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/vitaminB2"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar_vitaminC"
+        app:layout_constraintEnd_toStartOf="@+id/progressBar_vitaminB2"
+        app:layout_constraintTop_toTopOf="@+id/progressBar_vitaminB2" />
+
+    <TextView
+        android:id="@+id/text_vitaminC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="@string/vitaminC"
+        app:layout_constraintBottom_toBottomOf="@+id/progressBar_vitaminC"
+        app:layout_constraintEnd_toStartOf="@+id/progressBar_vitaminC"
+        app:layout_constraintTop_toTopOf="@+id/progressBar_vitaminC" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_calorie"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="40dp"
+        android:indeterminate="true"
+        android:scrollbarFadeDuration="50"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_borderLine"
+        app:layout_constraintTop_toBottomOf="@+id/text_Nutrients_in_day" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_protein"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="198dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="40dp"
+        android:indeterminate="true"
+        android:scrollbarFadeDuration="50"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_borderLine"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_borderLine" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_lipid"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="40dp"
+        android:indeterminate="true"
+        android:scrollbarFadeDuration="50"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_borderLine"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_borderLine" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_carbohydrate"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="40dp"
+        android:indeterminate="true"
+        android:scrollbarFadeDuration="50"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_borderLine"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_borderLine" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_calcium"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="40dp"
+        android:indeterminate="true"
+        android:scrollbarFadeDuration="50"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_borderLine"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_borderLine" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_iron"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="244dp"
+        android:layout_marginEnd="36dp"
+        android:indeterminate="true"
+        android:scrollbarFadeDuration="50"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_borderLine"
+        app:layout_constraintTop_toBottomOf="@+id/text_Nutrients_in_day" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_vitaminA"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="36dp"
+        android:indeterminate="true"
+        android:scrollbarFadeDuration="50"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_borderLine"
+        app:layout_constraintTop_toBottomOf="@+id/text_Nutrients_in_day" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_vitaminE"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="136dp"
+        android:indeterminate="true"
+        android:scrollbarFadeDuration="50"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_borderLine"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_borderLine" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_vitaminB1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="92dp"
+        android:indeterminate="true"
+        android:scrollbarFadeDuration="50"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_borderLine"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_borderLine" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_vitaminB2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="52dp"
+        android:indeterminate="true"
+        android:scrollbarFadeDuration="50"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_borderLine"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_borderLine" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_vitaminC"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="12dp"
+        android:indeterminate="true"
+        android:scrollbarFadeDuration="50"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_borderLine"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_borderLine" />
+
+    <TextView
+        android:id="@+id/text_Nutrients_in_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/food_Nutrients_intro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_reference_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/reference_value"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar_calorie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.727"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_Nutrients_in_day" />
+
+    <TextView
+        android:id="@+id/rectangle_borderLine"
+        android:layout_width="358dp"
+        android:layout_height="512dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_Nutrients_in_day" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

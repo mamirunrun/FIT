@@ -9,10 +9,8 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.navigation.NavigationView;
 
-
-public class home_activity extends AppCompatActivity
+public class EiyouMainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
 
     @Override
     public void onBackPressed() {
@@ -27,7 +25,7 @@ public class home_activity extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.home_activity, menu);
+        getMenuInflater().inflate(R.menu.eiyou_main, menu);
         return true;
     }
 
@@ -54,7 +52,7 @@ public class home_activity extends AppCompatActivity
 
         if (id == R.id.nav_home) {
             // Handle the camera action
-        } else if (id == R.id.nav_todolist) {
+        } else if (id == R.id.nav_todo) {
 
         } else if (id == R.id.nav_tools) {
 

@@ -33,4 +33,26 @@
     <string name="nav_header_desc">説明文</string>
     <string name="action_settings">設定</string>
     <string name="title_activity_home_activity">title_activity_home_activity</string>
+    <string name="id">plus</string>
+    <string name="title_activity_eiyou_main">EiyouMainActivity</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="calorie">カロリー</string>
+    <string name="food_Nutrients_intro">今日摂取した食事の栄養素</string>
+    <string name="protein">タンパク質</string>
+    <string name="lipid">脂質</string>
+    <string name="carbohydrate">炭水化物</string>
+    <string name="calcium">カルシウム</string>
+    <string name="iron">鉄分</string>
+    <string name="vitaminA">ビタミンA</string>
+    <string name="vitaminE">ビタミンE</string>
+    <string name="vitaminB1">ビタミンB1</string>
+    <string name="vitaminB2">ビタミンB2</string>
+    <string name="vitaminC">ビタミンC</string>
+    <string name="reference_value">基準値</string>
 </resources>
