@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">FIT</string>
-    <string name="sample">ヒラノワールド</string>
-    <string name="register_button">登録</string>
+    <string name="welcome_01">ようこそFITへ</string>
+    <string name="welcome_02">FITでは貴方の健康を総合的に管理します</string>
+    <string name="welcome_03">最初に名前と性別、生年月日を登録してください</string>
+    <string name="register_button">開始</string>
     <string name="register_button2">ログイン</string>
     <string name="name_label">名前</string>
     <string name="gender_label">性別</string>
