@@ -18,4 +18,11 @@
         </clip>
     </item>
 
+    <item android:id="@+id/training_main_progressBar">
+        <clip>
+            <color android:color="#ff8000" />
+            <height android:height="100dp" />
+        </clip>
+    </item>
+
 </layer-list>
