@@ -67,4 +67,7 @@
     <string name="vitaminB2">ビタミンB2</string>
     <string name="vitaminC">ビタミンC</string>
     <string name="reference_value">基準値</string>
+    <string name="title_activity_today__meal_">Today_Meal_Activity</string>
+    <string name="Today_meal_menu">今日の食事メニュー</string>
+    <string name="meal_add">追加</string>
 </resources>
