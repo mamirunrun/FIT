@@ -10,7 +10,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import com.google.android.material.navigation.NavigationView;
 
 
-public class home_activity extends AppCompatActivity
+public class Home_activity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
 
