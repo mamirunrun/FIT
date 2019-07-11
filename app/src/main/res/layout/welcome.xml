@@ -12,6 +12,7 @@
         android:layout_height="121dp"
         android:text="@string/welcome_01"
         android:textSize="50sp"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -20,11 +21,12 @@
 
     <TextView
         android:id="@+id/welcomeText2"
-        android:layout_width="362dp"
-        android:layout_height="195dp"
+        android:layout_width="373dp"
+        android:layout_height="256dp"
         android:layout_marginBottom="8dp"
         android:text="@string/welcome_02"
         android:textSize="50sp"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.489"
@@ -34,11 +36,12 @@
 
     <TextView
         android:id="@+id/welcomeText3"
-        android:layout_width="367dp"
-        android:layout_height="248dp"
+        android:layout_width="363dp"
+        android:layout_height="298dp"
         android:layout_marginBottom="8dp"
         android:text="@string/welcome_03"
         android:textSize="50sp"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.636"
