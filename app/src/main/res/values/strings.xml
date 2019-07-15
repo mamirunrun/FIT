@@ -85,4 +85,24 @@
     <string name="title_activity_today__meal_">Today_Meal_Activity</string>
     <string name="Today_meal_menu">今日の食事メニュー</string>
     <string name="meal_add">追加</string>
+    <string name="jogging">ジョギング</string>
+    <string name="walking">ウォーキング</string>
+    <string name="ruinning">ランニング</string>
+    <string name="cycling">サイクリング</string>
+    <string name="wallWithDog">犬の散歩</string>
+    <string name="StairsUpAndDown">階段の上り下り</string>
+    <string name="soccer">サッカー</string>
+    <string name="basketball">バスケットボール</string>
+    <string name="badminton">バドミントン</string>
+    <string name="tennis">テニス</string>
+    <string name="volleyball">バレーボール</string>
+    <string name="catchedball">キャッチボール</string>
+    <string name="swimming">水泳</string>
+    <string name="pushUps">腕立て伏せ</string>
+    <string name="Abdominalmuscles">腹筋</string>
+    <string name="spine">背筋</string>
+    <string name="squat">スクワット</string>
+    <string name="plank">プランク</string>
+    <string name="cleanUp">掃除</string>
+    <string name="dishWashing">皿洗い</string>
 </resources>
